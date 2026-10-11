@@ -1,0 +1,65 @@
+# ═══ Dependencies ═══
+node_modules/
+.pnp
+.pnp.js
+
+# ═══ Build outputs ═══
+dist/
+dist-ssr/
+build/
+
+# ═══ Environment (سري! لا يُرفع) ═══
+.env
+.env.*
+.env.import
+!.env.example
+!.env.production.example
+
+# ═══ Temp & cache ═══
+.tmp-pdf/
+.tmp-pdf-cv-*
+*.log
+npm-debug.log*
+
+# ═══ Editor ═══
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# ═══ OS ═══
+.DS_Store
+Thumbs.db
+
+# ═══ Generated ═══
+generated-cv-*.html
+generated-cv-*.pdf
+*.backup
+*.bak
+*.bak2
+
+# ═══ Fix & debug scripts (تطوير فقط) ═══
+fix-*.mjs
+debug-*.mjs
+test-*.mjs
+create-env.mjs
+deep-diagnose.mjs
+full-fix.mjs
+hide-arch-banner.mjs
+hide-dev-tools.mjs
+hide-*.mjs
+phase8-*.mjs
+restart-vite.mjs
+test-*.html
+test-*.pdf
+import-log.txt
+
+# ═══ Backup folder ═══
+backup-*
+وظائف-*
+
+# ═══ Claude/IDE files ═══
+.claude/
+.cursor/
+.antigravity/
